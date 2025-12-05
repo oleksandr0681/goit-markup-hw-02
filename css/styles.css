@@ -46,7 +46,7 @@ button {
     color: #404bbf;
 }
 
-.menu a:active {
+.menu a:focus {
     color: #404bbf;
 }
 
@@ -59,6 +59,10 @@ button {
 }
 
 .address a:hover {
+    color: #404bbf;
+}
+
+.address a:focus {
     color: #404bbf;
 }
 
@@ -88,8 +92,8 @@ button {
     background-color: #404bbf;
 }
 
-.team {
-    background-color: #f4f4fd;
+.hero-button:focus {
+    background-color: #404bbf;
 }
 
 .section-title {
@@ -99,6 +103,18 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+
+.features-card-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team {
+    background-color: #f4f4fd;
 }
 
 .team-card, .project-card {
